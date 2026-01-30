@@ -1,9 +1,14 @@
-﻿using UnityEngine;
+﻿using UnityEditor;
+using UnityEngine;
+using UnityEngine.Events;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEditor.Build.Reporting;
 
-namespace Polyperfect.Universal
-{
+
     public class PlayerMovement : MonoBehaviour
     {
+        public Interactable currentInteractable;
 
         public CharacterController controller;
         public float speed = 12f;
@@ -14,6 +19,10 @@ namespace Polyperfect.Universal
         public float groundDistance = 0.4f;
         public LayerMask groundMask;
 
+        
+
+
+
 
         Vector3 velocity;
         bool isGrounded;
@@ -21,6 +30,15 @@ namespace Polyperfect.Universal
         // Update is called once per frame
         void Update()
         {
+            Ray cameraRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+            if(Physics.Raycast(cameraRay, out RaycastHit hitInfo, 3f)&& hitInfo.collider.CompareTag("Interactable") && Input.GetKeyDown(KeyCode.E))
+            {
+                Debug.Log("Hit something");
+                currentInteractable.Interact();
+                
+            }
+
             controller = GetComponent<CharacterController>();
             isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
@@ -57,5 +75,4 @@ namespace Polyperfect.Universal
 
 
         }
-    }
-}
+  }
