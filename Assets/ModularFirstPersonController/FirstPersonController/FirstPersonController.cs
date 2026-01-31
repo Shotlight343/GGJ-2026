@@ -65,7 +65,7 @@ public class FirstPersonController : MonoBehaviour
     #region Sprint
 
     public bool enableSprint = true;
-    public bool unlimitedSprint = true;
+    public bool unlimitedSprint = false;
     public KeyCode sprintKey = KeyCode.LeftShift;
     public float sprintSpeed = 7f;
     public float sprintDuration = 5f;
@@ -100,9 +100,7 @@ public class FirstPersonController : MonoBehaviour
 
     // Internal Variables
     private bool isGrounded = false;
-    public float coyoteJumpDuration = 0.5f;
-    private float coyoteTime;
-    private bool hasJustJumped = false;
+
     #endregion
 
     #region Crouch
@@ -328,13 +326,12 @@ public class FirstPersonController : MonoBehaviour
         #region Jump
 
         // Gets input and calls jump method
-        if(enableJump && Input.GetKeyDown(jumpKey) && coyoteTime > 0f)
-        {coyoteTime = 0f;
+        if(enableJump && Input.GetKeyDown(jumpKey) && isGrounded)
+        {
             Jump();
-            
-        }   
+        }
+
         #endregion
-        Debug.Log("Coyote Time: " + coyoteTime);
 
         #region Crouch
 
@@ -358,7 +355,7 @@ public class FirstPersonController : MonoBehaviour
         }
 
         #endregion
-        
+
         CheckGround();
 
         if(enableHeadBob)
@@ -451,39 +448,32 @@ public class FirstPersonController : MonoBehaviour
         Vector3 direction = transform.TransformDirection(Vector3.down);
         float distance = .75f;
 
-        if (Physics.Raycast(origin, direction, out RaycastHit hit, distance) && !hasJustJumped)
+        if (Physics.Raycast(origin, direction, out RaycastHit hit, distance))
         {
             Debug.DrawRay(origin, direction * distance, Color.red);
             isGrounded = true;
-            coyoteTime = coyoteJumpDuration;
         }
         else
         {
             isGrounded = false;
-            coyoteTime -= Time.deltaTime;
         }
     }
-    private IEnumerator JustJumped()
-    {   hasJustJumped = true;
-        yield return new WaitForSeconds(0.2f);
-        hasJustJumped = false;
-    }
 
-        private void Jump()
+    private void Jump()
+    {
+        // Adds force to the player rigidbody to jump
+        if (isGrounded)
         {
-            // Adds force to the player rigidbody to jum
-            StartCoroutine(JustJumped());
-                Vector3 vel = rb.velocity;
-                vel.y = 0f;
-                rb.velocity = vel;
-
-                rb.AddForce(Vector3.up * jumpPower, ForceMode.Impulse);
-            // When crouched and using toggle system, will uncrouch for a jump
-            if(isCrouched && !holdToCrouch)
-            {
-                Crouch();
-            }
+            rb.AddForce(0f, jumpPower, 0f, ForceMode.Impulse);
+            isGrounded = false;
         }
+
+        // When crouched and using toggle system, will uncrouch for a jump
+        if(isCrouched && !holdToCrouch)
+        {
+            Crouch();
+        }
+    }
 
     private void Crouch()
     {
