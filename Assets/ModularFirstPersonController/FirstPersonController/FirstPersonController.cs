@@ -367,6 +367,8 @@ public class FirstPersonController : MonoBehaviour
         }
     }
 
+
+
     void FixedUpdate()
     {
         #region Movement
@@ -470,19 +472,21 @@ public class FirstPersonController : MonoBehaviour
     }
 
         private void Jump()
-        {
-            // Adds force to the player rigidbody to jum
-            StartCoroutine(JustJumped());
-                rb.AddForce(0f, jumpPower, 0f, ForceMode.Impulse);
-                isGrounded = false;
-            
+{
+    Vector3 vel = rb.velocity;
+    vel.y = 0f;
+    rb.velocity = vel;
+    StartCoroutine(JustJumped());
+    rb.AddForce(Vector3.up * jumpPower, ForceMode.Impulse);
 
-            // When crouched and using toggle system, will uncrouch for a jump
-            if(isCrouched && !holdToCrouch)
-            {
-                Crouch();
-            }
-        }
+    isGrounded = false;
+
+    if (isCrouched && !holdToCrouch)
+    {
+        Crouch();
+    }
+}
+
 
     private void Crouch()
     {
@@ -535,9 +539,16 @@ public class FirstPersonController : MonoBehaviour
             joint.localPosition = new Vector3(Mathf.Lerp(joint.localPosition.x, jointOriginalPos.x, Time.deltaTime * bobSpeed), Mathf.Lerp(joint.localPosition.y, jointOriginalPos.y, Time.deltaTime * bobSpeed), Mathf.Lerp(joint.localPosition.z, jointOriginalPos.z, Time.deltaTime * bobSpeed));
         }
     }
+
+    // private GameObject Watch()
+    // {
+    //     GameObject result = null;
+    //     var ray = mCam.ScreenPointToRay(Input.mousePosition);
+    //     if(Physics.Raycast(ray ,out var hit, 4f)){
+    //     result = hit.transform.gameObject;}
+    //     return result;
+    // }
 }
-
-
 
 // Custom Editor
 #if UNITY_EDITOR
