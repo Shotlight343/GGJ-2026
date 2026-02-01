@@ -29,6 +29,10 @@ public class Interactions : MonoBehaviour
                 }
             }
         }
+        if(Input.GetKeyDown(KeyCode.Backspace)){// 🔓 UNLOCK THE CURSOR
+    Cursor.lockState = CursorLockMode.None;
+    Cursor.visible = true;
+SceneSwitcher.instance.LoadLevel("MainMenuScene");}
     }
 
     private GameObject Visualize()
@@ -42,4 +46,5 @@ public class Interactions : MonoBehaviour
         
         return result;
     }
+    
 }

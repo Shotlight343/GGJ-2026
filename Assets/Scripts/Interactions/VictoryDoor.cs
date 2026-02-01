@@ -1,18 +1,22 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class VictoryDoor : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    private String nextLvl;
+    public bool activeDoor = true;
+    
+    void OnTriggerEnter(Collider other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (other.CompareTag("Player"))
+        {
+            if(activeDoor)
+            SceneSwitcher.instance.LoadLevel(nextLvl);
+        }
     }
 }

@@ -20,21 +20,24 @@ public class ButtonManager : MonoBehaviour
     private int buttonCount = 5;
     private int buttonsPressed = 0;
     GameObject[] litCandles;
-    GameObject Door;
+     public GameObject Door;
     void Start()
-    {
+    {   
+        
+
         litCandles = GameObject.FindGameObjectsWithTag("Candles");
         foreach (GameObject candle in litCandles)
         {
             candle.SetActive(false);
         }
+        Door.GetComponent<VictoryDoor>().activeDoor =   false;
     }
     public void LightCandle()
     {
         if (buttonsPressed < buttonCount)
         {
             litCandles[buttonsPressed].SetActive(true);
-            buttonsPressed++;
+            ++buttonsPressed;
             CheckButtons();
         }
     }
@@ -42,7 +45,7 @@ public class ButtonManager : MonoBehaviour
     {
         if (buttonsPressed >= buttonCount)
         {
-            Door.GetComponent<VictoryDoor>().enabled = true;
+            Door.GetComponent<VictoryDoor>().activeDoor = true;
         }
     }
 }

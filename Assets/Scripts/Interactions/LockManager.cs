@@ -20,7 +20,7 @@ public class LockManager : MonoBehaviour
     private int keyCount = 3;
     private int keysCollected = 0;
     GameObject[] doorLocks;
-    GameObject Door;
+    public GameObject Door;
     void Start()
     {
         doorLocks = GameObject.FindGameObjectsWithTag("DoorLocks");

@@ -10,6 +10,7 @@ TagManager:
   - Candles
   - Interactable
   - DoorLocks
+  - MaskAnim
   layers:
   - Default
   - TransparentFX

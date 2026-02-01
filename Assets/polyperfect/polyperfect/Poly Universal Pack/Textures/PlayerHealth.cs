@@ -36,7 +36,7 @@ public class PlayerHealth : MonoBehaviour
     }
     void Die()
     {
-       gameOverScreen.SetActive(true);
+       SceneSwitcher.instance.LoadLevel("Level1");
 
     // Disable player movement
     fpsController.playerCanMove = false;

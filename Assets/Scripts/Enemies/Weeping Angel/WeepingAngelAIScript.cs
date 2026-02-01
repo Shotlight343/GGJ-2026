@@ -63,11 +63,11 @@ public class WeepingAngelAIScript : MonoBehaviour
         }
 
         // Catch player
-        if (!agent.pathPending && agent.remainingDistance <= catchDistance)
-        {
-            // SceneManager.LoadScene(gameOverSceneName);
-            Debug.Log("Player caught!");
-        }
+
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.CompareTag("Player")){other.GetComponent<PlayerHealth>().TakeDamage(); Freeze();}
     }
 
     public void Freeze()
