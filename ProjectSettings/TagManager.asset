@@ -8,6 +8,8 @@ TagManager:
   - Mask
   - NoMask
   - Candles
+  - Interactable
+  - DoorLocks
   layers:
   - Default
   - TransparentFX

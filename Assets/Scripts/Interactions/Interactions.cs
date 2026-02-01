@@ -8,11 +8,12 @@ public class Interactions : MonoBehaviour
     private Camera mCam;
     public GameObject[] interactables;
 
-    [SerializeField] private float watchDistance = 15f;
+    [SerializeField] private float watchDistance = 4f;
 
     void Start()
     {
         mCam = Camera.main;
+        interactables = GameObject.FindGameObjectsWithTag("Interactable");
     }
 
     void Update()
@@ -22,7 +23,7 @@ public class Interactions : MonoBehaviour
         {
             if (nearest == interactable)
             {
-                if (Input.GetKeyDown("e"))
+                if (Input.GetKeyDown(KeyCode.E))
                 {
                     interactable.GetComponent<Interactable>().Interact();
                 }
