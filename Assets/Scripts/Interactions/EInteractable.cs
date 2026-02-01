@@ -12,6 +12,5 @@ public class EInteractable :Interactable
     }
     void Dissapear()
     {
-        Destroy(gameObject);
     }
 }
