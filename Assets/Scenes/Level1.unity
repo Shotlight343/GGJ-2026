@@ -599,7 +599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0e993914e5692a4fbba994ea01fcf18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maskSprite: {fileID: 0}
+  maskSprite: {fileID: 1507745849}
   isMaskActive: 0
   maskObjects: []
   noMaskObjects: []
@@ -617,7 +617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 354a9cbaedc4636418d80841350ea8ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mCam: {fileID: 0}
+  mCam: {fileID: 1276801416}
   interactables: []
   watchDistance: 5.69
 --- !u!1001 &265287937
@@ -783,7 +783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474292dddb519934db099d681cfe0639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLvl: LEVEL 2 (1)
+  nextLvl: LEVEL 2
   activeDoor: 1
 --- !u!65 &276793388
 BoxCollider:
@@ -2676,6 +2676,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98ab8add3c154a54f82e50f7f2d1b1fe, type: 3}
+--- !u!20 &1276801416 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 4459864851310106426, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+  m_PrefabInstance: {fileID: 1031950868}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1321542264
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3338,7 +3343,6 @@ GameObject:
   - component: {fileID: 1507745852}
   - component: {fileID: 1507745851}
   - component: {fileID: 1507745850}
-  - component: {fileID: 1507745854}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: MaskAnim
@@ -3429,18 +3433,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1507745854
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1507745849}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1bd525c67d093f4882b9e1aac6e02e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1508288765
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -72,16 +72,16 @@ public class WeepingAngelAIScript : MonoBehaviour
 
     public void Freeze()
     {
-        // agent.speed = 0;
+        agent.speed = 0;
         canMove = false;
-        agent.isStopped = true;
+        
     }
 
     public void Chase()
     { 
-        // agent.speed = 3.5f;
+         agent.speed = 10f;
         canMove = true;
-        agent.isStopped = false;
+        
         
     }
 }
