@@ -1,0 +1,771 @@
+fileFormatVersion: 2
+guid: 600a46028e3f1b342ab6515e8ad6ff71
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 4314
+        width: 1001
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49414b6587df954fa947c1fe4772eb2
+      internalID: 1354022614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_1
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 4314
+        width: 1001
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f26829f20f9d44cb7f99213675b6ca
+      internalID: 855855251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_2
+      rect:
+        serializedVersion: 2
+        x: 3898
+        y: 4314
+        width: 1001
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c80e509d56ca2e4b919f27660c6bdbf
+      internalID: 2032987341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_3
+      rect:
+        serializedVersion: 2
+        x: 5816
+        y: 4314
+        width: 1007
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fe59d8909fcfe4d8f6f01f5688bad1
+      internalID: -1514472660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_4
+      rect:
+        serializedVersion: 2
+        x: 7740
+        y: 4314
+        width: 1001
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049344861d84448468af783f5c6d78fc
+      internalID: -2106553894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_5
+      rect:
+        serializedVersion: 2
+        x: 9658
+        y: 4314
+        width: 1001
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ad581602ef038459ac006927c2383f
+      internalID: -528717299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_6
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 3234
+        width: 1001
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3090c31e2385996468f7639fb0ae69af
+      internalID: -1277185248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_7
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 3234
+        width: 1001
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6821c2d99cbd1e34ca5bd4bd700ee6fb
+      internalID: 787338636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_8
+      rect:
+        serializedVersion: 2
+        x: 3898
+        y: 3234
+        width: 1001
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfcdd4010b185640824d8e766c043a3
+      internalID: -741343745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_9
+      rect:
+        serializedVersion: 2
+        x: 5822
+        y: 3234
+        width: 1001
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e71a06bb2460643946ea5c368166e7
+      internalID: 1694473247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_10
+      rect:
+        serializedVersion: 2
+        x: 7740
+        y: 3234
+        width: 1001
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e65c4ef66f118c46b05bea1dc5ea905
+      internalID: -1875954418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_11
+      rect:
+        serializedVersion: 2
+        x: 9658
+        y: 3234
+        width: 1001
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f850fabbcf6085d449a139ce969b4c31
+      internalID: 1838176786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_12
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 2154
+        width: 1001
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e68811d517ca9648a3c681d08efc25d
+      internalID: 688866821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_13
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 2154
+        width: 1001
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124c665eabb8ca14f878d3cf9563095b
+      internalID: -202629875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_14
+      rect:
+        serializedVersion: 2
+        x: 3898
+        y: 2154
+        width: 1001
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f217c63ec1b8f4690226fac8f0029a
+      internalID: -688563743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_15
+      rect:
+        serializedVersion: 2
+        x: 5822
+        y: 2154
+        width: 1001
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606bf521794f7164c8753974f7f78430
+      internalID: 1927774858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_16
+      rect:
+        serializedVersion: 2
+        x: 7740
+        y: 2154
+        width: 1001
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217fccd8276cb424e821f425e832afd1
+      internalID: -1821672656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_17
+      rect:
+        serializedVersion: 2
+        x: 9658
+        y: 2154
+        width: 1001
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74a0b1a7e399fa4a86e077acc94c533
+      internalID: -923939334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_18
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1074
+        width: 1001
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1222b79a512941348a78d1d9013fe235
+      internalID: 51892384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_19
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1074
+        width: 1001
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4135d94f3326146b47ccb31253bb8a
+      internalID: -1398188011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_20
+      rect:
+        serializedVersion: 2
+        x: 3898
+        y: 1074
+        width: 1001
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82d62b36fe2b864ca69164a54048c2c
+      internalID: -475096653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_21
+      rect:
+        serializedVersion: 2
+        x: 5822
+        y: 1074
+        width: 1001
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebaf0ef4cc960654891439b989875988
+      internalID: 1045371690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_22
+      rect:
+        serializedVersion: 2
+        x: 7740
+        y: 1074
+        width: 1001
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29da8e53bbc00d949a0847e12d1ff2e7
+      internalID: 894122998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_23
+      rect:
+        serializedVersion: 2
+        x: 9658
+        y: 1074
+        width: 1001
+        height: 990
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427c5a0455638ef479b3341eb5837079
+      internalID: 1346343305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_24
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 0
+        width: 1001
+        height: 984
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d0ea7e631060545ab6176d9824a15e
+      internalID: -157073324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_25
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 0
+        width: 1001
+        height: 984
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c4b6f571e0a6e419f895592954df6c
+      internalID: 361176358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_26
+      rect:
+        serializedVersion: 2
+        x: 3898
+        y: 0
+        width: 1001
+        height: 984
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077e16d9e7a90cc42a2ebe477441b81f
+      internalID: 634168195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_27
+      rect:
+        serializedVersion: 2
+        x: 5822
+        y: 0
+        width: 1001
+        height: 984
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e375d8693d7f28488dc748aa2d6d1c0
+      internalID: -1555906021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_28
+      rect:
+        serializedVersion: 2
+        x: 7740
+        y: 0
+        width: 1001
+        height: 984
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441f19d72396a054fbe7710dbcb9bda3
+      internalID: -118312138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameJamMainMenuAnimation_29
+      rect:
+        serializedVersion: 2
+        x: 9658
+        y: 0
+        width: 1001
+        height: 984
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caee867b222aef6459dbbcde8f2e1909
+      internalID: 1890488079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: de9091e2fca431a4e8dd9c3d8e66a9c6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GameJamMainMenuAnimation_0: 1354022614
+      GameJamMainMenuAnimation_1: 855855251
+      GameJamMainMenuAnimation_10: -1875954418
+      GameJamMainMenuAnimation_11: 1838176786
+      GameJamMainMenuAnimation_12: 688866821
+      GameJamMainMenuAnimation_13: -202629875
+      GameJamMainMenuAnimation_14: -688563743
+      GameJamMainMenuAnimation_15: 1927774858
+      GameJamMainMenuAnimation_16: -1821672656
+      GameJamMainMenuAnimation_17: -923939334
+      GameJamMainMenuAnimation_18: 51892384
+      GameJamMainMenuAnimation_19: -1398188011
+      GameJamMainMenuAnimation_2: 2032987341
+      GameJamMainMenuAnimation_20: -475096653
+      GameJamMainMenuAnimation_21: 1045371690
+      GameJamMainMenuAnimation_22: 894122998
+      GameJamMainMenuAnimation_23: 1346343305
+      GameJamMainMenuAnimation_24: -157073324
+      GameJamMainMenuAnimation_25: 361176358
+      GameJamMainMenuAnimation_26: 634168195
+      GameJamMainMenuAnimation_27: -1555906021
+      GameJamMainMenuAnimation_28: -118312138
+      GameJamMainMenuAnimation_29: 1890488079
+      GameJamMainMenuAnimation_3: -1514472660
+      GameJamMainMenuAnimation_4: -2106553894
+      GameJamMainMenuAnimation_5: -528717299
+      GameJamMainMenuAnimation_6: -1277185248
+      GameJamMainMenuAnimation_7: 787338636
+      GameJamMainMenuAnimation_8: -741343745
+      GameJamMainMenuAnimation_9: 1694473247
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
